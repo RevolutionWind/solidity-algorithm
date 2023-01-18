@@ -1,5 +1,5 @@
 const { expect } = require("chai");
-describe.only("TwoSum", async function () {
+describe("TwoSum", async function () {
   let twoSum = null;
   beforeEach(async () => {
     const TwoSum = await ethers.getContractFactory("TwoSum");
