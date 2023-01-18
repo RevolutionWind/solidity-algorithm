@@ -2,7 +2,7 @@
 pragma solidity ^0.8.7;
 
 contract SortUtil {
-    function sort(int256[] memory arr) public pure returns (int256[] memory) {
+    function qSort(int256[] memory arr) public pure returns (int256[] memory) {
         quickSort(arr, 0, int256(arr.length - 1));
         return arr;
     }
